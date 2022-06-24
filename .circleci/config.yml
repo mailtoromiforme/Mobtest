@@ -1,8 +1,17 @@
-orbs:
-  maven: circleci/maven@2.1
-version: 2.1
-workflows:
-  maven_test:
-    jobs:
-      - maven/test:
-          command: '-X verify'
+jobs:
+  build_and_test: # this can be any name you choose
+    executor: node/default # use the default executor defined within the orb
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          command: npm run test
+          name: Run tests
+      - run:
+          command: npm run build
+          name: Build app
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            
