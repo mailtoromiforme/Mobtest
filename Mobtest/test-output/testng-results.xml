@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-24T00:06:11 CEST" name="Default suite" finished-at="2022-06-24T00:06:18 CEST" duration-ms="6856">
+  <suite started-at="2022-06-24T11:42:36 CEST" name="Default suite" finished-at="2022-06-24T11:42:45 CEST" duration-ms="8775">
     <groups>
     </groups>
-    <test started-at="2022-06-24T00:06:11 CEST" name="Default test" finished-at="2022-06-24T00:06:18 CEST" duration-ms="6856">
+    <test started-at="2022-06-24T11:42:36 CEST" name="Default test" finished-at="2022-06-24T11:42:45 CEST" duration-ms="8775">
       <class name="Mobtestget.Search">
-        <test-method signature="getRequestforDelphine()[pri:0, instance:Mobtestget.Search@4b0b0854]" started-at="2022-06-24T00:06:11 CEST" name="getRequestforDelphine" finished-at="2022-06-24T00:06:15 CEST" duration-ms="4182" status="PASS">
+        <test-method signature="getRequestforDelphine()[pri:0, instance:Mobtestget.Search@34b7ac2f]" started-at="2022-06-24T11:42:36 CEST" name="getRequestforDelphine" finished-at="2022-06-24T11:42:40 CEST" duration-ms="3809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequestforDelphine -->
-        <test-method signature="getRequestforPosts()[pri:0, instance:Mobtestget.Search@4b0b0854]" started-at="2022-06-24T00:06:15 CEST" name="getRequestforPosts" finished-at="2022-06-24T00:06:18 CEST" duration-ms="2633" status="PASS">
+        <test-method signature="getRequestforPosts()[pri:0, instance:Mobtestget.Search@34b7ac2f]" started-at="2022-06-24T11:42:40 CEST" name="getRequestforPosts" finished-at="2022-06-24T11:42:45 CEST" duration-ms="4906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRequestforPosts -->
